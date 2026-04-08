@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Canteen - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>College Canteen</h2>
+    <ul>
+        <li><a href="firstpage.html">Home</a></li>
+        <li><a href="secondpage.html">Menu</a></li>
+        <li><a href="thirdpage.html">Contact</a></li>
+    </ul>
+</nav>
+
+<h1 class="center">Our Menu</h1>
+
+<div class="menu-container">
+
+    <div class="card">
+        <h3>Burger</h3>
+        <p>₹50</p>
+        <button onclick="addToCart(50)">Add</button>
+    </div>
+
+    <div class="card">
+        <h3>Pizza</h3>
+        <p>₹120</p>
+        <button onclick="addToCart(120)">Add</button>
+    </div>
+
+    <div class="card">
+        <h3>Sandwich</h3>
+        <p>₹40</p>
+        <button onclick="addToCart(40)">Add</button>
+    </div>
+
+</div>
+
+<h2 class="center">Total: ₹ <span id="total">0</span></h2>
+
+<div class="center">
+    <button onclick="checkout()">Checkout</button>
+</div>
+
+<footer>
+    © 2026 College Canteen
+</footer>
+
+<script src="fifthpage.js"></script>
+</body>
+</html>
